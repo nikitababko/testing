@@ -1,0 +1,10 @@
+@media (max-width: 970px) {
+    .container--our-team {
+        flex-direction: column;
+    }
+
+    .section-our-team__person {
+        width: 50%;
+        margin: 80px auto 0;
+    }
+}

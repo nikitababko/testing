@@ -1,0 +1,63 @@
+.section-our-team {
+    padding-bottom: 100px;
+}
+
+.container--our-team {
+    display: flex;
+}
+
+.section-our-team__person {
+    width: 305px;
+    margin: 0 30px;
+
+    font-family: "Raleway", sans-serif;
+}
+
+.person-photo {
+    width: 100%;
+}
+
+.person-content__name {
+    padding: 30px 0 15px;
+
+    font-family: "Raleway Regular", sans-serif;
+    font-size: 22px;
+}
+
+.person-content__role {
+    font-family: "Raleway Regular", sans-serif;
+    font-size: 13px;
+    color: red;
+    text-transform: uppercase;
+}
+
+.person-content__text {
+    font-family: "Raleway Regular", sans-serif;
+    padding: 30px 0;
+    color: #6c7279;
+}
+
+.person-content__social {
+    a {
+        margin: 0 5px;
+        padding: 10px 15px;
+
+        border: 1px solid #c6cacc;
+
+        transition: background 0.4s linear;
+        &:hover {
+            background: #c6cacc;
+            .font-awesome-icon {
+                color: #fff;
+            }
+        }
+        &:first-child {
+            margin-left: 0;
+        }
+        .font-awesome-icon {
+            color: #c6cacc;
+
+            transition: color 0.4s linear;
+        }
+    }
+}

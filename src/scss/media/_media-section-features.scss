@@ -1,0 +1,37 @@
+@media (max-width: 1080px) {
+    .section-features__content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-features__content-row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 750px) {
+    .section-features {
+        padding: 20px 0 130px;
+    }
+
+    .section-features__content {
+        flex-direction: column;
+
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .section-features__content-row {
+        padding: 0;
+    }
+
+    .section-features__item {
+        text-align: center;
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .features__item-title {
+        padding: 1rem 0;
+    }
+}

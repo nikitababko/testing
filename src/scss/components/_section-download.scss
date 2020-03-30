@@ -1,0 +1,38 @@
+.section-download {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section-download__title {
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+}
+
+.section-download__subtitle {
+    padding: 20px 0 40px;
+
+    font-family: "Raleway Bold", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-download__btn {
+    padding: 20px 90px;
+    border: none;
+
+    font-family: "Raleway SemiBold", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background: #e84545;
+    font-size: 13px;
+    text-transform: uppercase;
+
+    border-radius: 5px;
+
+    transition: all 0.4s linear;
+    &:hover {
+        background: #3a3e64;
+        color: #e84545;
+    }
+}

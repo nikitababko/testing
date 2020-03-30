@@ -1,0 +1,70 @@
+.container-testimonials {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials__avatar {
+    background: #53354a;
+    img {
+        width: 950px;
+    }
+}
+
+.testimonials__description {
+    padding: 110px 0 0 85px;
+    width: 100%;
+    max-width: 950px;
+
+    color: #fff;
+    background: #53354a;
+    p {
+        padding-bottom: 40px;
+        max-width: 540px;
+
+        font-family: "Cardo Italic";
+        font-size: 36px;
+    }
+    cite {
+        font-family: "Raleway Bold", sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+/*===============================
+Slider
+===============================*/
+
+.slick-dots {
+    transform: translate3d(600px, -100px, 0);
+}
+
+.slick-dots li button:focus {
+    display: none;
+}
+
+.slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    content: "";
+    text-align: center;
+
+    border-radius: 50%;
+
+    opacity: 0.25;
+    color: rgb(255, 255, 255);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}

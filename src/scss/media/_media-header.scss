@@ -1,0 +1,47 @@
+@media (max-width: 1235px) {
+    .burger-btn {
+        display: block;
+        z-index: 10;
+        opacity: 0.7;
+    }
+
+    .header__nav {
+        display: none;
+        ul {
+            li:first-child {
+                display: block;
+            }
+        }
+        .header-nav__link {
+            font-size: 50px;
+        }
+    }
+
+    .header__nav--active {
+        position: fixed;
+        top: 0;
+
+        display: block;
+
+        width: 100vw;
+        height: 100vh;
+
+        background: #000;
+
+        opacity: 0.7;
+        ul {
+            padding-top: 400px;
+            flex-direction: column;
+            justify-content: center;
+            li {
+                margin: 30px auto;
+                &:first-child {
+                    display: none;
+                }
+            }
+        }
+        ul {
+            flex-direction: column;
+        }
+    }
+}

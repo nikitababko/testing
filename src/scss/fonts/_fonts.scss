@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/opensans/opensans.woff") format("woff");
+    src: url("fonts/opensans/opensans.ttf") format("truetype");
+    src: url("fonts/opensans.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url("fonts/raleway-bold/opensansbold.woff2") format("woff2");
+    src: url("fonts/raleway-bold/opensansbold.woff") format("woff");
+    src: url("fonts/raleway-bold/opensansbold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: local("Raleway Regular"), local("Raleway-Regular"),
+        url("fonts/raleway-regular/ralewayregular.woff2") format("woff2"),
+        url("fonts/raleway-regular/ralewayregular.woff") format("woff"),
+        url("fonts/raleway-regular/ralewayregular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway SemiBold";
+    src: local("Raleway SemiBold"), local("Raleway-SemiBold"),
+        url("fonts/raleway-semi-bold/ralewaysemibold.woff2") format("woff2"),
+        url("fonts/raleway-semi-bold/ralewaysemibold.woff") format("woff"),
+        url("fonts/raleway-semi-bold/ralewaysemibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway Bold";
+    src: local("Raleway Bold"), local("Raleway-Bold"),
+        url("fonts/raleway-bold/ralewaybold.woff2") format("woff2"),
+        url("fonts/raleway-bold/ralewaybold.woff") format("woff"),
+        url("fonts/raleway-bold/ralewaybold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raleway Light";
+    src: local("Raleway Light"), local("Raleway-Light"),
+        url("fonts/raleway-light/ralewaylight.woff2") format("woff2"),
+        url("fonts/raleway-light/ralewaylight.woff") format("woff"),
+        url("fonts/raleway-light/ralewaylight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cardo Italic";
+    src: local("Cardo Italic"), local("Cardo-Italic"),
+        url("fonts/cardo-italic/cardoitalic.woff2") format("woff2"),
+        url("fonts/cardo-italic/cardoitalic.woff") format("woff"),
+        url("fonts/cardo-italic/cardoitalic.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+}

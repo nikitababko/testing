@@ -1,0 +1,144 @@
+.header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    padding: 4.5rem 0;
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+
+    border-bottom: 2px solid #50536a;
+}
+
+/*======================
+Fixed header
+======================*/
+
+.header--fixed {
+    position: fixed;
+    max-width: 100%;
+
+    background: #3a3e64;
+
+    border-bottom: none;
+    .header__nav {
+        ul {
+            li:first-child {
+                display: block;
+            }
+        }
+    }
+}
+
+//======================
+
+.header--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.header__logo {
+    img {
+        width: 12rem;
+    }
+}
+
+.header__nav {
+    ul {
+        display: flex;
+        li:first-child {
+            display: none;
+        }
+    }
+}
+
+.header-nav__link {
+    position: relative;
+    font-family: "Raleway Bold", sans-serif;
+    color: #cbccd2;
+    font-size: 17px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    margin: 0 1rem;
+
+    transition: color 0.4s linear;
+    &--right {
+        margin-right: 0;
+    }
+    &:hover {
+        color: #fff;
+    }
+}
+
+/*===============================
+Burger-menu
+===============================*/
+
+.burger-btn {
+    position: absolute;
+
+    top: 70px;
+    right: 100px;
+
+    display: none;
+    padding: 20px 8px;
+
+    cursor: pointer;
+}
+
+.burger-btn__menu {
+    position: relative;
+
+    display: block;
+
+    width: 70px;
+    height: 5px;
+    background: #fff;
+
+    transition: all 0.4s linear;
+    &::before {
+        position: absolute;
+        top: -25px;
+
+        content: "";
+        display: block;
+        width: 70px;
+        height: 5px;
+        background: #fff;
+
+        transition: transform 0.4s linear;
+    }
+    &::after {
+        position: absolute;
+        top: 25px;
+
+        display: block;
+
+        content: "";
+
+        width: 70px;
+        height: 5px;
+        background: #fff;
+
+        transition: transform 0.4s linear;
+    }
+}
+
+.burger-btn--active {
+    .burger-btn__menu {
+        background: transparent;
+        &::before {
+            transform-origin: left top;
+            transform: rotate(45deg) translate3d(5px, -3px, 0);
+        }
+        &::after {
+            transform-origin: left top;
+            transform: rotate(-45deg) translate3d(0, 3px, 0);
+        }
+    }
+}

@@ -1,0 +1,35 @@
+// general
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    widows: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+// import fonts
+@import "fonts/_fonts.scss";
+
+// import components
+@import "components/reset.scss";
+
+@import "components/_header.scss";
+@import "components/_section-intro.scss";
+@import "components/_section-features.scss";
+@import "components/_section-works.scss";
+@import "components/_section-our-team.scss";
+@import "components/_section-testimonials.scss";
+@import "components/_section-download.scss";
+@import "components/_footer.scss";
+
+// import media
+@import "media/_media-header.scss";
+@import "media/_media-section-intro.scss";
+@import "media/_media-section-features.scss";
+@import "media/_media-section-our-team.scss";
+@import "media/_media-section-testimonials.scss";
+@import "media/_media-footer.scss";

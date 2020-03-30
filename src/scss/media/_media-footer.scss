@@ -1,0 +1,18 @@
+@media (max-width: 870px) {
+    .footer__content {
+        flex-direction: column;
+        h3 {
+            padding: 60px 0 15px;
+        }
+    }
+
+    .footer__location {
+        width: 100%;
+    }
+
+    .footer__about {
+        p {
+            width: 100%;
+        }
+    }
+}

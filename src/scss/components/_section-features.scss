@@ -1,0 +1,31 @@
+.section-features {
+    padding: 120px 0 130px;
+}
+
+.section-features__content-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+.section-features__item {
+    text-align: center;
+    width: 300px;
+
+    font-size: 14px;
+}
+
+.features__item-title {
+    padding: 2rem 0;
+
+    font-family: "Raleway Bold", sans-serif;
+
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.features__item-text {
+    font-family: "Raleway Regular", sans-serif;
+
+    color: #6c7279;
+}
