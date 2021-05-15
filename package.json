@@ -1,15 +1,29 @@
 {
-<<<<<<< HEAD
-  "name": "tests-repo",
-=======
-  "name": "test-repo",
->>>>>>> df64d85... Initialize project using Create React App
-  "version": "0.1.0",
+  "name": "@nikitababko/github-package-demo",
+  "author": {
+    "name": "Nikita Babko",
+    "email": "niki.babko@gmail.com"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "react-custom-hooks"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikitababko/testing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nikitababko/testing/issues"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
