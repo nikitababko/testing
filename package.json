@@ -11,10 +11,10 @@
   ],
   "license": "MIT",
   "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nikitababko/testing.git"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
+  "repository": "git://github.com/nikitababko/testing.git",
   "bugs": {
     "url": "https://github.com/nikitababko/testing/issues"
   },
