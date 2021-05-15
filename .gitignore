@@ -1,8 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 node_modules
 git_config
 .env
 =======
+=======
+>>>>>>> df64d85... Initialize project using Create React App
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -26,4 +29,7 @@ git_config
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 >>>>>>> 4246a8c... Initialize project using Create React App
+=======
+>>>>>>> df64d85... Initialize project using Create React App

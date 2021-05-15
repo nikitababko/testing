@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "tests-repo",
+=======
+  "name": "test-repo",
+>>>>>>> df64d85... Initialize project using Create React App
   "version": "0.1.0",
   "private": true,
   "dependencies": {
