@@ -17,9 +17,8 @@ jobs:
         with:
           node-version: 14
           registry-url: https://registry.npmjs.org
-      - run: npm install
       - name: 🚀 publish
-      - run: npm publish --access public
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
       - name: 🟢 node
@@ -27,6 +26,7 @@ jobs:
         with:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@nikitababko'
-      - run: npm publish
+      - name: 🚀 publish
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.AUTH_GITHUB_TOKEN }}
