@@ -17,6 +17,7 @@ jobs:
         with:
           node-version: 14
           registry-url: https://registry.npmjs.org
+          scope: '@nikitababko'
       - name: 🚀 publish
         run: npm publish --access public
         env:
